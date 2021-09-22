@@ -1,0 +1,426 @@
+body
+{
+    margin:0px auto;
+    width:100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul li
+{
+    list-style-type: none;
+    float: right;
+    padding-top:15px;
+    padding-right: 60px;
+    color:beige;
+    font-size: 15px;
+
+} 
+nav ul li a
+{
+    text-decoration: none;
+    color:aliceblue;
+}
+nav ul
+{   margin-top: 0px;
+    float:right;
+      width:100%;
+    height: 50px;
+    background-color:black ;
+    position:fixed; /* to make the nav bar stick to each and every page*/
+   
+   
+}
+
+nav
+{   margin-top: 0px;
+    width:100%   /*We dont know the site width so this is where we use responsive designing */
+    height:50%;
+}
+
+
+.home
+{
+    background-image: linear-gradient(#e3fdfd,#cbf1f5) ;  /*Only for home section */
+    text-align: center;
+    font-size:15px;
+    color:black;
+    display: table; 
+    height:100vh;
+    width: 100%;
+}
+.home .inner
+{
+    display: table-cell;
+    vertical-align:middle;
+   
+}
+.home .inner img
+{
+    width:250px;
+    height:auto;
+    border-radius: 100%;
+    
+}
+
+.about
+{
+    background-image: url("https://blog.completepayroll.com/hubfs/New%20York%20State%20laws%20on%20Employee%20Background%20Checks%20-%20Complete%20Payroll.png");
+   
+    width:100%;
+    height:100vh;
+    display: table;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about .inner
+{   padding-top:20px;
+    display: table-cell;
+    vertical-align: middle;
+    width:50%;
+    float:left; 
+}
+.about .inner h1
+{   color:ghostwhite;
+    text-align: left;
+    font-size: 40px;
+    padding-left: 20px;
+    font-weight: 100;
+    
+}
+.about .inner p
+{   width:100%;
+    font-size:40px;
+    padding-left: 20px;
+    line-height: 50px;
+    color:antiquewhite;
+}
+
+.education
+{  
+    display: table;
+    width:100%;
+    height:100vh;
+   padding-left:10px;
+    background-image: linear-gradient(#fdfdfd,#a1eafb)
+}
+
+.education .inner 
+    {   
+        padding:25px;
+        
+    }
+.education .inner h1
+{padding-top:15px;}
+    
+.education .inner div
+{   
+padding:50px;
+margin-left: 18px;
+margin-right: 5px;
+float:left;    
+text-align: center;    
+}
+
+.education .inner div img
+{
+    width:300px;
+   height:180px;
+   
+}
+
+.skills
+{  
+background-image:url("https://s27389.pcdn.co/wp-content/uploads/2019/09/employee-skills-AI-1011x440.jpg");
+  display:table;
+    width:100%;
+    height:100vh;
+    background-color: #eeeeee;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.skills .inner
+{   display: table-cell;
+    padding-left:30px;
+   vertical-align:middle
+    background-color: rgb(0,0,0,0);
+    
+}
+.skills .inner h1
+{
+    padding-top:55px;
+}
+.skills .inner div 
+{   
+    float:left;
+    text-align: center;  
+   
+    margin-left: 100px;
+}
+.skills .inner div img
+{   width:200px;
+    height:180px;
+    border-radius: 50%;
+    border-style:solid;
+    border-width:thick; 
+ 
+}
+.skills .inner div h3
+{  text-align: center;
+    padding-right: 10px;
+       padding-bottom:15px;
+    font-size:22px;
+   text-decoration: underline;
+ }
+
+.project
+{   
+    width:100%;
+    height:100vh;
+    display: table;
+   background-image: linear-gradient(#32e0c4,#393e46);
+    padding-left: 15px;
+    
+    
+
+}
+.project .inner
+{
+    display: table-cell;
+    vertical-align:middle;
+   
+}
+
+.project .inner h1
+{padding-top:45px;}
+
+.project .inner div
+{padding-top:3px;
+padding-left: 30px;
+}
+.project .inner div li
+{   
+    padding-bottom: 35px;
+    font-size:20px;
+}
+
+.project .inner .robo img
+{   float:right;
+    margin-right:85px;
+    width:300px;
+    height:auto ;
+    border-radius: 50%;
+    margin: auto 10px 30px 35px 55px;
+}
+.project .inner .resume img
+{  
+   padding-right:55px;
+   float:right;
+    width:300px;
+    height:auto ;
+    border-radius: 50%;   
+}
+
+
+.certificates
+{  
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(#ddf3f5,#a6dcef);
+    padding-left: 15px;
+    padding-top:10px;
+    color:firebrick;
+}
+.certificates h1
+{   padding-bottom: 15px;
+    padding-left:10px; 
+    padding-top: 25px;
+    color:black;
+}
+
+.certificates .inner div ul li
+{
+    padding-left:10px;
+    padding-bottom: 40px;
+    font-size: 25px;
+}
+.certificates .inner div ul li h3
+{
+  padding-right:5px;
+    padding-bottom: 55px;
+    
+}
+
+.hobbies
+{   background-image: url("https://storage.needpix.com/rsynced_images/screen-background-2242699_1280.jpg");
+    padding-left:15px;
+    display: table;
+    width:100%;
+    height:100vh;
+    background-color: #ffde7d;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+    
+.hobbies .inner 
+    {   display:table-cell;
+        padding:15px;
+        margin-top:40px;
+        font-size:20px;
+        
+    }
+.hobbies .inner h1
+{
+    padding-top:40px;padding-left:15px;color:azure;
+}
+.hobbies .inner div h1
+{
+    padding-top:50px;
+}
+
+.hobbies .inner div
+{   
+padding:40px;
+margin-left: 15px;
+margin-right: 5px;
+float:left;    
+text-align: center; 
+
+}
+.hobbies .inner div h3
+{font-size:20px;text-align: center;font-family:serif;text-decoration:underline; color:azure;       }
+
+.hobbies .inner div img
+{  width:200px;
+   height:250px;
+    border-radius:50%;
+    border:5px 
+    padding-right: 15px;
+    border:5px solid white ;
+}
+
+.handles
+{   background-image: url("https://cdn.whatagraph.com/blog/Social-media-ipad.jpg");
+    padding-left:10px;
+    display: table;
+    width:100%;
+    height:100vh;
+    background-color: #cadefc;
+    background-size: cover;
+    background-repeat:no-repeat;
+    
+}
+
+.handles .inner div  a
+{
+    text-decoration:none;
+    color:black;
+}
+
+.handles .inner h1
+{   position: relative;
+ left:40px;top:280px;font-size: 35px;
+}
+.handles .inner div
+{
+    text-align: center;
+    padding-left:0px;
+}
+.handles .inner div h3
+{
+    text-align: center;
+    margin-right:50px;
+}
+.handles .inner div div img
+{
+    width:10%;
+    height:auto;
+    border-radius: 30%;
+    margin-right:50px;
+}
+
+
+/*responsive designing*/
+@media (min-width:320px) and (max-width:767px)
+{   
+   
+    body{width:fit-content;font-family: 'Ubuntu', sans-serif;height:100vh;
+    }
+    nav
+    {   margin-top: 0px;
+    width:100%   /*We dont know the site width so this is where we use responsive designing */
+    height:50%;}
+    nav ul li
+    {
+    list-style-type: none;
+    float: left;
+    padding-top:15px;
+    padding-left: 2px;
+    padding-right: 10px;
+    color:beige;
+    font-size: 15px;
+    } 
+    nav ul li a{color:burlywood;}
+    .certificates {line-height: 25px;height:100vh;
+    width: 100%;}
+    .handles .inner div img{margin-top:115px;}
+    .handles .inner h1
+    {position:relative;
+    left:40px;
+    top:450px;}
+    
+   
+    
+    .project h1
+    {padding-left:10px;margin-top: 150px;}
+    .project .inner div 
+    {   padding-top:20px;
+        padding-left: 0px;
+        padding-right: 160px;
+        margin-bottom: 100px;    
+    }
+    .project .inner .robo img
+    {   
+        display: none;
+    }
+    .project .inner div .resume img
+    {  
+        position: relative;
+        left:300px;
+        bottom: 100px;
+    }
+    
+    .education .inner div{width:70%;}
+    .skills .inner div{width:50%;}
+    
+}
+
+
+@media (min-width:768px) and (max-width:1023px)
+{
+    body{width:fit-content;font-family: 'Ubuntu', sans-serif;}
+    nav ul li
+    {
+        float:left;
+        padding-left:22px;
+        padding-right: 12px;
+    }
+    .about{width:100%;font-display: block;line-height: 25px;text-align: center;}
+      .education .inner div{width:70%;}
+        
+    .handles .inner div img{margin-top:115px;}
+    .handles .inner h1
+    {position:relative;
+    left:40px;
+    top:450px;}
+    
+    #handles /*IMPORTANCE OF BACKGROUND WHEN SIZE CHANGES */
+    {  
+        background:#a6fff2!important ;
+    }
+    
+   
+
+}
+
